@@ -1,0 +1,100 @@
+@media screen and (max-width: 375px) {
+    body {
+        background: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+    
+    main {
+        display: grid;
+        margin: auto;
+    }
+    
+    .order-card {
+        margin: auto;
+        display: grid;
+        background: #fff;
+        box-shadow: 0 10px 10px #372AE030;
+        border-radius: 10px;
+    }
+    
+    img {
+        margin: auto;
+        width: 300px;
+        border-top-right-radius: 10px;
+        border-top-left-radius: 10px;
+    }
+    
+    .order-body {
+        margin: auto;
+        display: grid;
+    }
+    
+    .order-summary {
+        width: 270px;
+        margin: auto;
+    }
+    
+    h2 { 
+        text-align: center;
+    }
+    
+    p {
+        text-align: center;
+        color:hsl(224, 23%, 55%);
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    
+    .pricing {
+        background: #F8F9FF;
+        margin: auto;
+        width: 260px;
+        height: 96px;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .music-icon {
+        width: 45px;
+        height: 45px;
+        margin: 16px;
+    }
+    
+    .pricing-plan {
+        width: 90px;
+    }
+
+    .change {
+        margin-left: 30px;
+        font-size: 13px;
+        font-weight: 700;
+        color: hsl(245, 75%, 52%);
+    }
+    
+    .change a:hover {
+        text-decoration: none;
+        color: #675fda;
+    }
+    
+    button {
+        background: none;
+        font-family: 'Red Hat Display', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color:hsl(224, 23%, 55%);
+        margin: auto;
+        border: none;
+        border-radius: 5px;
+        height: 45px;
+        width: 260px;
+    }
+
+    .button1 {
+        background: hsl(245, 75%, 52%);
+        box-shadow: 0 10px 8px #372AE035;
+        color: #fff;
+    }
+
+}
